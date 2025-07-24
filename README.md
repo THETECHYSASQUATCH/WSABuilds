@@ -16,7 +16,7 @@
 <picture><img align="left" height="20%" src="https://github.com/MustardChef/WSABuilds/assets/68516357/35cd1d5d-e464-4eb8-a676-b451341f65ad" width="20%"/></picture>
 <h1>WSABuilds</h1>
 <h3>MagiskOnWSA (For Windows™ 10 and 11)</h3>
-<h5>Windows Subsystem For Android™ (WSA) with Google Play Services and Magisk and KernelSU</h5>
+<h5>Windows Subsystem For Android™ (WSA) with Google Play Services and Magisk and KernelSU - Now with Android 16 Support</h5>
 <br/>
 <a href="https://discord.gg/2thee7zzHZ"><img align="right" src="https://invidget.switchblade.xyz/2thee7zzHZ" style="width: 400px;"/></a>
 <br/> <br/> <br/> <br/>
