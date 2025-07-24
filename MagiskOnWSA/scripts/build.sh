@@ -329,7 +329,7 @@ fi
     source "$PYTHON_VENV_DIR/bin/activate" || abort "Failed to activate virtual environment, please re-run install_deps.sh"
 }
 declare -A RELEASE_NAME_MAP=(["retail"]="Retail" ["RP"]="Release Preview" ["WIS"]="Insider Slow" ["WIF"]="Insider Fast")
-declare -A ANDROID_API_MAP=(["30"]="11.0" ["32"]="12.1" ["33"]="13.0")
+declare -A ANDROID_API_MAP=(["30"]="11.0" ["32"]="12.1" ["33"]="13.0" ["35"]="16.0")
 declare -A ARCH_NAME_MAP=(["x64"]="x86_64" ["arm64"]="arm64")
 RELEASE_NAME=${RELEASE_NAME_MAP[$RELEASE_TYPE]} || abort
 echo -e "INFO: Release Name: $RELEASE_NAME\n"
@@ -351,7 +351,7 @@ if [ "$CUSTOM_MAGISK" ]; then
         fi
     fi
 fi
-ANDROID_API=33
+ANDROID_API=35
 update_gapps_files_name() {
     GAPPS_IMAGE_NAME=gapps-${ANDROID_API_MAP[$ANDROID_API]}-${ARCH_NAME_MAP[$ARCH]}.img
     GAPPS_RC_NAME=gapps-${ANDROID_API_MAP[$ANDROID_API]}.rc
